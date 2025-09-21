@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weekly Stream Schedule</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Weekly Stream Schedule</h1>
+
+  <div class="controls">
+    <button onclick="changeWeek(-1)">⬅️ Previous Week</button>
+    <span id="week-label"></span>
+    <button onclick="changeWeek(1)">Next Week ➡️</button>
+  </div>
+
+  <p id="timezone-info"></p>
+
+  <div id="table-container">
+    <div id="schedule-container"></div>
+  </div>
+
+  <br />
+  <!-- Texte sous le tableau -->
+  <div id="below-text">
+    Feel free to join me when you see me on air by clicking on the "ON AIR" event!
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
