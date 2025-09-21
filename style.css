@@ -14,11 +14,31 @@ h1 {
 .controls {
   text-align: center;
   margin-bottom: 1rem;
+  
 }
+
+
+.controls button {
+  background-color: #faedcd; /* couleur crème */
+  border: 1px solid #d4c9a7; /* une bordure un peu plus foncée crème */
+  color: #333; /* texte sombre pour contraste */
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #f7e8b5; /* crème un peu plus clair au survol */
+}
+
+
 
 #timezone-info {
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1.5em;
   color: #777;
   margin-bottom: 1rem;
 }
@@ -36,7 +56,7 @@ h1 {
 /* Hour headers */
 .hour-label {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.90em;
   padding-top: 15px;
   background-color: #fef6e4;
   border-right: 1px solid #ccc;
@@ -77,7 +97,7 @@ h1 {
   height: 50px;
   background-color: #faedcd;
   padding: 5px 10px;
-  font-size: 0.85em;
+  font-size: 1em;
   border-radius: 4px;
   z-index: 10;
   box-sizing: border-box;
@@ -109,7 +129,7 @@ h1 {
   left: -2.3px;
   background-color: #e63946;
   color: white;
-  font-size: 1.1em;
+  font-size: 0.98em;
   font-weight: 700;
   padding: 2px 6px;
   border-radius: 4px;
