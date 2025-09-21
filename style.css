@@ -108,6 +108,7 @@ h1 {
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border: 1px solid #d4c9a7;
+  text-align: center;
 }
 
 .event:hover {
